@@ -5,3 +5,8 @@ jacqlyn:
   name: Jacqlyn Bender
   email: jacqlyn@example.com
   password_digest: <%= User.digest('password') %>
+
+mookie:
+  name: Mookie Blaylock
+  email: mookie@example.com
+  password_digest: <%= User.digest('password') %>
