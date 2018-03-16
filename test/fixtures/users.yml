@@ -11,3 +11,8 @@ mookie:
   name: Mookie Blaylock
   email: mookie@example.com
   password_digest: <%= User.digest('password') %>
+
+cokey:
+  name: Cokey Blaylock
+  email: cokey@example.com
+  password_digest: <%= User.digest('password') %>
